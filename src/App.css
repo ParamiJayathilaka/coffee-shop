@@ -16,13 +16,13 @@
    * Colors
   ===============*/
 
-  --first-color: hsl(0, 0%, 1%);
+  --first-color: hsl(44, 71%, 37%);
   --first-color-light: hsl(42,13%,34%);
   --title-color: hsl(0,0%,100%);
   --text-color:hsl(0,0%,67%) ;
   --bg-color: hsl(0, 0%, 8%);
   --container-color: hsl(0,0%,6%);
-  --hsla:hsla(0,0%,0%,0.75) ;
+  --hsla:hsla(0, 43%, 44%, 0.75) ;
 
   /*===============
    * Typography
@@ -121,4 +121,43 @@ img{
   max-width: 1200px;  
   margin-inline: auto;
   padding-inline:0.75rem ;
+}
+
+.grid{
+  display: grid;
+  gap: 1.5rem;
+}
+
+.btn{
+  display: inline-block;
+  color: var(--title-color);
+  background: var(--first-color);
+  border: 2px solid var(--first-color);
+  padding: 1rem 1.5rem;
+  border-radius: var(--radius);
+}
+
+.btn:hover{
+  background-color: transparent;
+  color: var(--first-color);
+}
+
+.section{
+  padding-block: 7.5rem;
+
+}
+
+.section__title{
+  font-size: var(--big-font-size);
+  margin-bottom: 1rem;
+}
+
+.section__title::before{
+  content: attr(data-title);
+  display: block;
+  color: var(--first-color);
+  font-family: var(--second-font);
+  font-size: var(--h2-font-size);
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
 }

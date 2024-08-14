@@ -33,6 +33,24 @@
 
 .home__description{
     margin-bottom: 2.25rem;
-    
+
 }
+
+.home__btns{
+    display: flex;
+    column-gap: 2rem; ;
+}
+
+.home__btn{
+    background-color: transparent;
+ 
+}
+
+.home__btn:hover{
+    background-color: var(--first-color);
+    color: var(--title-color);
+}
+
+
+
 
