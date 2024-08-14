@@ -1,0 +1,37 @@
+.features__grid{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.features__item{
+    background-color: var(--container-color);
+    padding: 2rem;
+    border-radius: var(--radius);
+    position: relative;
+}
+
+.features__item::before{
+    content: '';
+    position: absolute;
+    inset: 0.75rem;
+    border: 2px solid var(--first-color);
+    opacity: 0.2;
+    border-radius: inherit;
+}
+
+.feature__img{
+    width: 60px;
+    margin-bottom: 1.25rem;
+}
+
+.feature__title{
+    font-size: var(--h3-font-size);
+    margin-bottom: 0.625rem;
+}
+
+.feature__shape{
+    position: absolute;
+    width: 120px;
+    right: 1.25rem;
+    top: 3rem;
+    opacity: 0.2;
+}

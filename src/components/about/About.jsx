@@ -12,7 +12,8 @@ const About = () => {
             </div>
 
             <div className="about__content">
-                <h2 className="section__title" data-title='About Us'>
+                <h2 className="section__title" 
+                data-title='About Us'>
                     Fresh Quality And Organic Tasty Coffe House For You
                 </h2>
 
