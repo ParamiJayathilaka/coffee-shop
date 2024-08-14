@@ -1,0 +1,37 @@
+.header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.nav{
+    height: calc(var(--header-height) +11.5rem);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__logo__img{
+    width: 190px;
+}
+
+.nav__list{
+    display: flex;
+    column-gap: 2rem;
+}
+
+.nav__link,
+.nav__toggle{
+    color: var(--title-color);
+}
+
+.nav__link{
+    font-size: var(--large-font-size);
+    font-weight: var(--weight--500);
+}
+
+.nav__toggle{
+    font-size: var(--h2-font-size);
+    display: none;
+}
