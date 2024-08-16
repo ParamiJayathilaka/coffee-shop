@@ -1,0 +1,81 @@
+.gallery__grid{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gallery__item{
+    position: relative;
+}
+
+.gallery__item::before{
+    content: '';
+    position: absolute;
+    inset: 0.5rem;
+    background-color: var(--first-color);
+    border-radius: var(--radius);
+    transform: scaleY(0);
+    opacity: 0;
+    transition: 0.4s var(--transition);
+}
+
+.gallery__img{
+    border-radius: var(--radius);
+    width: 100%;
+    height: 100%;
+}
+
+.gallery__icon,
+.gallery__title{
+    position: absolute;
+    font-size: var(--largest-font-size);
+    opacity: 0;
+}
+
+.gallery__icon{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--title-color);
+    color: var(--first-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin-top: 3rem;
+    transition: 0.3s var(--transition);
+    transition-delay: 0.3s;
+
+}
+
+.gallery__title{
+bottom: 0;
+inset-inline: 1.75rem;
+background-color: var(--container-color);
+text-align: center;
+padding-block: 1.25rem;
+transition: 0.5 var(--transition);
+
+}
+
+  /*===============
+   * Hover Effect
+  ===============*/
+
+  .gallery__item:hover::before{
+    transform: scaleY(1);
+    opacity: 0.7;
+  }
+
+  .gallery__item:hover .gallery__icon,
+  .gallery__item:hover .gallery__title{
+    opacity: 1;
+  }
+
+  .gallery__item:hover .gallery__icon{
+    margin-top: 0;
+  }
+
+  .gallery__item:hover .gallery__title{
+    bottom: 1.75rem;
+  }
+
