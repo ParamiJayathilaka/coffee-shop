@@ -16,13 +16,13 @@
    * Colors
   ===============*/
 
-  --first-color: hsl(27, 87%, 21%);
+  --first-color: hsl(27, 54%, 55%);
   --first-color-light: hsl(42,13%,34%);
   --title-color: hsl(0,0%,100%);
   --text-color:hsl(0,0%,67%) ;
   --bg-color: hsl(0, 0%, 8%);
   --container-color: hsl(0, 3%, 6%);
-  --hsla:hsla(0, 43%, 44%, 0.75) ;
+  --hsla:hsla(0, 6%, 7%, 0.75) ;
 
   /*===============
    * Typography

@@ -1,0 +1,61 @@
+.stats{
+    background: var(--container-color);
+}
+
+.stats__grid{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.stats__item{
+    text-align: center;
+}
+
+.stats__img-wrapper{
+    width: 100px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    margin-inline: auto;
+    position: relative;
+}
+
+.stats__img-wrapper::before{
+    content:'' ;
+    position: absolute;
+    left: -1.25rem;
+    top: -1.25rem;
+    width: 100px;
+    height: 100px;
+    border-radius:50% ;
+    background-color: var(--first-color);
+    opacity: 0.2;
+    transition: 0.5s var(--transition);
+}
+
+.stats__img{
+    width: 60px;
+}
+
+.stats__no{
+    color: var(--title-color);
+    font-size: var(--bigger-font-size);
+    font-weight: var(--weight-600);
+    margin-block: 1rem 0.75rem;
+}
+
+.stats__title{
+    color: var(--first-color);
+    font-size: var(--largest-font-size);
+}
+
+  /*===============
+   * Rover Effect
+  ===============*/
+
+  .stats__item:hover .stats__img-wrapper::before{
+    left: 0;
+    top: 0;
+
+  }
+   
+  
