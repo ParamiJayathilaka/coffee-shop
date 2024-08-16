@@ -1,0 +1,72 @@
+.team__grid{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.team__img{
+    width: 100%;
+    height: 80%;
+}
+
+.team_item{
+    border-bottom: 3px solid var(--first-color);
+    background-color: var(--container-color);
+    padding: 0.5rem;
+    position: relative;
+    transition: 0.5 var(--transition);
+}
+
+.team__data{
+    padding: 0.75rem;
+    text-align: center;
+}
+
+.team__title{
+    font-size: var(--largest-font-size);
+    margin-bottom: 0.25rem;
+}
+
+.team__job{
+    color: var(--first-color);
+    font-weight: var(--weight-500);
+
+}
+
+.team__socials{
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    opacity: 0;
+    transition: 0.5s var(--transition);
+}
+
+.team__social-link{
+    background-color: var(--bg-color);
+    color: var(--title-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.3s var(--transition);
+}
+
+  /*===============
+   * Hover Effect
+  ===============*/
+
+  .team__item:hover{
+    transform: translateY(-0.5rem);
+  }
+
+  .team__item:hover .team__socials{
+    right: 1rem;
+    opacity: 1;
+
+  }
+
+  .team__social-link:hover{
+    background-color: var(--first-color);
+  }
