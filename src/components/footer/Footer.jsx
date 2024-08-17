@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from "../../assets/logo.png";
+import './footer.css';
 import { FaRegEnvelope, FaCaretRight, FaFacebook, FaTwitter, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { AiOutlinePhone } from 'react-icons/ai';
 import { MdOutlineLocationOn } from 'react-icons/md';
@@ -155,7 +156,7 @@ const Footer = () => {
     </div>
 
     <p className="copyright__text">
-        &copy: Copyright 2023 <span>C</span>
+        &copy; Copyright 2023 <span>Cup-O-Coffero</span> All Right Reserved
     </p>
   </footer>
 };
