@@ -24,6 +24,7 @@
 .nav__link,
 .nav__toggle{
     color: var(--title-color);
+    cursor: pointer;
 }
 
 .nav__link{
@@ -35,3 +36,34 @@
     font-size: var(--h2-font-size);
     display: none;
 }
+
+
+  /*===============
+   * Scroll Header
+  ===============*/
+
+  .scroll-header{
+    position: fixed;
+    background-color: var(--container-color);
+    animation: slide-down 0.7s;
+  }
+
+  @keyframes slide-down {
+    0%{
+        transform: translateY(-100%);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+    
+  }
+
+    /*===============
+   * Active Link
+  ===============*/
+
+  .active,
+  .nav__link:hover{
+    color: var(--first-color);
+  }
