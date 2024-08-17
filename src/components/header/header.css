@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 .nav__logo__img{
@@ -65,5 +66,5 @@
 
   .active,
   .nav__link:hover{
-    color: var(--first-color);
+    color: var(--first-color) !important;
   }
