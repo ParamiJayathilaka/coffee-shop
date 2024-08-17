@@ -13,7 +13,7 @@ import Offer from './components/offer/Offer'
 import Team from './components/team/Team'
 import Reservation from './components/reservation/Reservation'
 import Testimonials from './components/testimonials/Testimonials'
-
+import Footer from './components/footer/Footer'
 
 function App() {
   return <>
@@ -29,6 +29,7 @@ function App() {
   <Team/>
   <Reservation/>
   <Testimonials/>
+  <Footer/>
   
 
   </>
