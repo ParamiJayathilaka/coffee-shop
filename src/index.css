@@ -47,6 +47,8 @@
         top: 100%;
         inset-inline: 0.75rem;
         background-color: var(--title-color);
+        max-height: 0;
+        overflow: scroll;
     }
 
     .nav__list {
