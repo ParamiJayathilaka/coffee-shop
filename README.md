@@ -1,70 +1,12 @@
-# Getting Started with Create React App
+![React App - Profile 1 - Microsoft​ Edge 8_26_2024 11_19_58 PM](https://github.com/user-attachments/assets/58956648-7ce6-436f-abff-1ce5064bc7e9)
+![React App - Profile 1 - Microsoft​ Edge 8_26_2024 11_20_19 PM](https://github.com/user-attachments/assets/33fc3697-da13-4a6f-b56d-92bb9b787798)
+![React App - Profile 1 - Microsoft​ Edge 8_26_2024 11_20_35 PM](https://github.com/user-attachments/assets/b212bfec-924c-4f3f-b868-abeaf87cee5c)
+![React App - Profile 1 - Microsoft​ Edge 8_26_2024 11_21_00 PM](https://github.com/user-attachments/assets/835aaa61-e169-4163-9b4d-6e5301c7f452)
+![React App - Profile 1 - Microsoft​ Edge 8_26_2024 11_21_12 PM](https://github.com/user-attachments/assets/0cf6101d-d932-48e3-a82d-8e0f15f192b5)
+![React App - Profile 1 - Microsoft​ Edge 8_26_2024 11_21_20 PM](https://github.com/user-attachments/assets/e14ef105-6e33-44a2-8e5c-81e878f4b7cb)
+![React App - Profile 1 - Microsoft​ Edge 8_26_2024 11_21_31 PM](https://github.com/user-attachments/assets/9463424a-ba07-4959-9226-05d222d1cde7)
+![React App - Profile 1 - Microsoft​ Edge 8_26_2024 11_21_38 PM](https://github.com/user-attachments/assets/17e25796-9e32-4b24-b3e2-4c72b803087c)
+![React App - Profile 1 - Microsoft​ Edge 8_26_2024 11_21_49 PM](https://github.com/user-attachments/assets/7af20036-eec1-40af-8c26-a2cfef600d38)
+![React App - Profile 1 - Microsoft​ Edge 8_26_2024 11_21_55 PM](https://github.com/user-attachments/assets/55d1f79e-8352-4f7c-b22b-ab23fcf39306)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
